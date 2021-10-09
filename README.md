@@ -343,6 +343,10 @@ Style to apply to the pager view wrapping all the scenes.
 
 Style to apply to the tab view container.
 
+##### `overdrag`
+
+Allows for over-scrolling after reaching the very end or very beginning of pages. It defaults to false (iOS only).
+
 ### `TabBar`
 
 Material design themed tab bar. To customize the tab bar, you'd need to use the `renderTabBar` prop of `TabView` to render the `TabBar` and pass additional props.
